@@ -4,13 +4,11 @@
 
 L'ensensemble de Mandebrot est un ensemble fractal inventé par Benoit Mandelbrot permettant d'étudier la convergence ou la rapidité de divergence dans le plan complexe de la suite récursive suivante :
 $$
-\left\{
-\begin{array}{l}
-    c\,\,\textrm{valeurs\,\,complexe\,\,donnée}\\
-    z_{0} = 0 \\
-    z_{n+1} = z_{n}^{2} + c
-\end{array}
-\right.
+\begin{cases}
+c \text{ é um valor complexo dado} \\
+z_0 = 0 \\
+z_{n+1} = z_n^2 + c
+\end{cases}
 $$
 dépendant du paramètre $c$.
 
